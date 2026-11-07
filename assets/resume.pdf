@@ -1,0 +1,120 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R] >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 5360 >>
+stream
+q 0.078 0.129 0.239 rg 0 696 595.28 145.89 re f Q
+q 0.988 0.639 0.067 rg 0 692 595.28 4 re f Q
+BT /F2 30 Tf 0 Tc 1.000 1.000 1.000 rg 1 0 0 1 48 786 Tm (MOHAMED OSAMA) Tj ET
+BT /F1 11.5 Tf 0 Tc 0.988 0.639 0.067 rg 1 0 0 1 48 762 Tm (Product Designer & Front-End Engineer) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.898 0.898 0.898 rg 1 0 0 1 48 739 Tm (Cairo, EG  |  @mohamedosama) Tj ET
+BT /F1 9 Tf 0 Tc 0.898 0.898 0.898 rg 1 0 0 1 48 717 Tm (github.com/mohamedosama209750) Tj ET
+q 0.898 0.898 0.898 RG 0.5 w 48 714.6 m 191.57 714.6 l S Q
+BT /F1 9 Tf 0 Tc 0.988 0.639 0.067 rg 1 0 0 1 200.57 717 Tm (|) Tj ET
+BT /F1 9 Tf 0 Tc 0.898 0.898 0.898 rg 1 0 0 1 209.57 717 Tm (linkedin.com/in/mohamed-osama-936244333) Tj ET
+q 0.898 0.898 0.898 RG 0.5 w 209.57 714.6 m 389.64 714.6 l S Q
+q 0.988 0.639 0.067 rg 48 662.5 6 6 re f Q
+BT /F2 9.5 Tf 1.6 Tc 0.078 0.129 0.239 rg 1 0 0 1 62 664 Tm (PROFILE) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 643 Tm (I'm a product designer and front-end engineer with eight years of experience turning fuzzy ideas into shipped) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 629.4 Tm (software. My sweet spot is the overlap between visual craft and engineering: design systems, motion, and) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 615.8 Tm (interfaces that feel alive without getting in the way.) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 595.2 Tm (Lately I've been exploring depth and translucency on the web â¬" glass surfaces, layered light, and) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 581.6 Tm (micro-interactions that make a screen feel physical. When I'm not pushing pixels, I'm trail running or perfecting a) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 568 Tm (pour-over.) Tj ET
+q 0.988 0.639 0.067 rg 48 543.4 22 2.5 re f Q
+BT /F2 20 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 523.4 Tm (8+) Tj ET
+BT /F1 8.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 509.4 Tm (Years designing & building) Tj ET
+q 0.988 0.639 0.067 rg 214.43 543.4 22 2.5 re f Q
+BT /F2 20 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 214.43 523.4 Tm (40+) Tj ET
+BT /F1 8.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 214.43 509.4 Tm (Products shipped) Tj ET
+q 0.988 0.639 0.067 rg 380.85 543.4 22 2.5 re f Q
+BT /F2 20 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 380.85 523.4 Tm (12) Tj ET
+BT /F1 8.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 380.85 509.4 Tm (Design awards) Tj ET
+q 0.988 0.639 0.067 rg 48 483.9 6 6 re f Q
+BT /F2 9.5 Tf 1.6 Tc 0.078 0.129 0.239 rg 1 0 0 1 62 485.4 Tm (CORE SKILLS) Tj ET
+BT /F1 10 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 465.4 Tm (React & TypeScript / Design systems / Motion & interaction / Accessibility / Product strategy / Prototyping) Tj ET
+BT /F1 9 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 449.8 Tm (Tools: React / TypeScript / CSS / Vite / Figma / Framer Motion) Tj ET
+q 0.988 0.639 0.067 rg 48 426.3 6 6 re f Q
+BT /F2 9.5 Tf 1.6 Tc 0.078 0.129 0.239 rg 1 0 0 1 62 427.8 Tm (SELECTED PROJECTS) Tj ET
+BT /F2 11.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 404.8 Tm (Focus Timer) Tj ET
+BT /F1 9 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 527.26 404.8 Tm (2026) Tj ET
+BT /F2 8.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 128.38 405.8 Tm (Solo build) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 392.3 Tm (A pomodoro-style focus timer with focus, short-break, and long-break modes, configurable durations, and keyboard) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 380.3 Tm (controls.) Tj ET
+BT /F2 11.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 346.3 Tm (iPhone 13 Pro Max) Tj ET
+BT /F1 9 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 527.26 346.3 Tm (2026) Tj ET
+BT /F2 8.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 162.26 347.3 Tm (Solo build) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 333.8 Tm (A responsive product landing page with a hero, product grid, news, and contact sections.) Tj ET
+q 0.988 0.639 0.067 rg 48 304.3 6 6 re f Q
+BT /F2 9.5 Tf 1.6 Tc 0.078 0.129 0.239 rg 1 0 0 1 62 305.8 Tm (LINKS) Tj ET
+BT /F2 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 285.8 Tm (GitHub) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 120 285.8 Tm (github.com/mohamedosama209750) Tj ET
+q 0.078 0.129 0.239 RG 0.5 w 120 283.6 m 271.54 283.6 l S Q
+BT /F2 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 266.8 Tm (LinkedIn) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 120 266.8 Tm (www.linkedin.com/in/mohamed-osama-936244333) Tj ET
+q 0.078 0.129 0.239 RG 0.5 w 120 264.6 m 333.29 264.6 l S Q
+BT /F2 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 247.8 Tm (TikTok) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 120 247.8 Tm (www.tiktok.com/@engmohamed.osama) Tj ET
+q 0.078 0.129 0.239 RG 0.5 w 120 245.6 m 287.49 245.6 l S Q
+BT /F2 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 228.8 Tm (Facebook) Tj ET
+BT /F1 9.5 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 120 228.8 Tm (www.facebook.com/share/1Dg8hiMPRt) Tj ET
+q 0.078 0.129 0.239 RG 0.5 w 120 226.6 m 285.24 226.6 l S Q
+BT /F1 9 Tf 0 Tc 0.078 0.129 0.239 rg 1 0 0 1 48 197.8 Tm (References and full project case studies available on request.) Tj ET
+q 0.078 0.129 0.239 rg 0 0 595.28 72 re f Q
+q 0.988 0.639 0.067 rg 0 72 595.28 3 re f Q
+BT /F1 9 Tf 0 Tc 0.898 0.898 0.898 rg 1 0 0 1 48 32 Tm (Mohamed Osama  |  Cairo, EG  |  @mohamedosama) Tj ET
+BT /F1 9 Tf 0 Tc 0.898 0.898 0.898 rg 1 0 0 1 501.25 32 Tm (Page 1 of 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 714 191.57 725] /Border [0 0 0] /A << /S /URI /URI (https://github.com/mohamedosama209750) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [209.57 714 389.64 725] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/mohamed-osama-936244333/) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [120 282.8 271.54 294.8] /Border [0 0 0] /A << /S /URI /URI (https://github.com/mohamedosama209750) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [120 263.8 333.29 275.8] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/mohamed-osama-936244333/) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [120 244.8 287.49 256.8] /Border [0 0 0] /A << /S /URI /URI (https://www.tiktok.com/@engmohamed.osama) >> >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [120 225.8 285.24 237.8] /Border [0 0 0] /A << /S /URI /URI (https://www.facebook.com/share/1Dg8hiMPRt/) >> >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000306 00000 n 
+0000000403 00000 n 
+0000000505 00000 n 
+0000005917 00000 n 
+0000006070 00000 n 
+0000006242 00000 n 
+0000006400 00000 n 
+0000006574 00000 n 
+0000006736 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+6900
+%%EOF

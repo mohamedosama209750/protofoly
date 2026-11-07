@@ -1,0 +1,19 @@
+# System and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Dependencies / tooling (the site itself has none)
+node_modules/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp

@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mohamed Osama — Product Designer &amp; Front-End Engineer</title>
+    <meta
+      name="description"
+      content="Mohamed Osama is a product designer and front-end engineer in Cairo, building calm, tactile interfaces with clean, accessible code."
+    />
+    <meta name="theme-color" content="#000000" id="theme-color" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mohamed Osama — Product Designer & Front-End Engineer" />
+    <meta
+      property="og:description"
+      content="Designer's eye, engineer's hands. Calm, tactile interfaces built with clean, accessible code."
+    />
+    <meta property="og:image" content="assets/avatar.jpg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (() => {
+        const key = 'mo-theme';
+        let theme = null;
+        try {
+          theme = localStorage.getItem(key);
+        } catch (error) {
+          theme = null;
+        }
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.classList.add('js');
+      })();
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="ambient" aria-hidden="true"></div>
+
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-github" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+        />
+      </symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+        />
+      </symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+        />
+      </symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+        />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"
+        />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+        />
+      </symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M7 17 17 7M8 7h9v9"
+        />
+      </symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 5v14M5 12l7 7 7-7"
+        />
+      </symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 19V5M5 12l7-7 7 7"
+        />
+      </symbol>
+      <symbol id="i-download" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v12M7 10l5 5 5-5M5 21h14"
+        />
+      </symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7" />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"
+        />
+      </symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+        />
+      </symbol>
+    </svg>
+
+    <header class="rail">
+      <a class="brand" href="#top" aria-label="Mohamed Osama — back to top">
+        <span class="brand-mark">MO</span>
+      </a>
+
+      <nav class="rail-nav" aria-label="Sections">
+        <a href="#about" data-nav="about">
+          <span class="nav-dot" aria-hidden="true"></span>
+          <span class="nav-label">About</span>
+        </a>
+        <a href="#work" data-nav="work">
+          <span class="nav-dot" aria-hidden="true"></span>
+          <span class="nav-label">Work</span>
+        </a>
+        <a href="#skills" data-nav="skills">
+          <span class="nav-dot" aria-hidden="true"></span>
+          <span class="nav-label">Skills</span>
+        </a>
+        <a href="#contact" data-nav="contact">
+          <span class="nav-dot" aria-hidden="true"></span>
+          <span class="nav-label">Contact</span>
+        </a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+        <svg class="icon-sun" aria-hidden="true"><use href="#i-sun" /></svg>
+        <svg class="icon-moon" aria-hidden="true"><use href="#i-moon" /></svg>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-reveal>
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for select projects
+          </p>
+
+          <h1 id="hero-title" class="hero-title" data-reveal>
+            Mohamed
+            <span class="hero-accent">Osama</span>
+          </h1>
+
+          <p class="hero-role" data-reveal>Product Designer &amp; Front-End Engineer</p>
+
+          <p class="hero-tagline" data-reveal>
+            I design calm, tactile interfaces — then build them with clean, accessible code.
+          </p>
+
+          <p class="hero-meta" data-reveal>
+            <span>Cairo, EG</span>
+            <span class="meta-sep" aria-hidden="true"></span>
+            <span>Working worldwide</span>
+          </p>
+
+          <div class="hero-actions" data-reveal>
+            <a class="btn btn-primary" href="#work">
+              View selected work
+              <svg aria-hidden="true"><use href="#i-arrow-down" /></svg>
+            </a>
+            <a class="btn btn-ghost" href="assets/resume.pdf" download="Mohamed-Osama-Resume.pdf">
+              Download résumé
+              <svg aria-hidden="true"><use href="#i-download" /></svg>
+            </a>
+          </div>
+        </div>
+
+        <figure class="portrait" data-reveal>
+          <div class="portrait-frame">
+            <img
+              src="assets/avatar.jpg"
+              width="640"
+              height="640"
+              alt="Portrait of Mohamed Osama"
+              fetchpriority="high"
+            />
+          </div>
+          <figcaption class="portrait-badge">
+            <strong>8+ years</strong>
+            <span>designing &amp; building</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section wrap" id="about" aria-labelledby="about-title">
+        <header class="section-head" data-reveal>
+          <p class="kicker"><span>01</span> About</p>
+          <h2 id="about-title">Designer's eye,<br />engineer's hands.</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-copy" data-reveal>
+            <p>
+              I'm a product designer and front-end engineer with
+              <mark>eight years of experience</mark> turning fuzzy ideas into shipped software. My
+              sweet spot is the overlap between visual craft and engineering: design systems,
+              motion, and interfaces that feel alive without getting in the way.
+            </p>
+            <p>
+              Lately I've been exploring depth and translucency on the web — glass surfaces,
+              layered light, and micro-interactions that make a screen feel physical. When I'm not
+              pushing pixels, I'm trail running or perfecting a pour-over.
+            </p>
+          </div>
+
+          <aside class="about-panel" data-reveal aria-label="Quick facts">
+            <ul class="stats">
+              <li>
+                <span class="stat-value">8+</span>
+                <span class="stat-label">Years designing &amp; building</span>
+              </li>
+              <li>
+                <span class="stat-value">2</span>
+                <span class="stat-label">Live products shipped</span>
+              </li>
+              <li>
+                <span class="stat-value">100</span>
+                <span class="stat-label">Lighthouse accessibility &amp; SEO</span>
+              </li>
+            </ul>
+
+            <div class="toolbox">
+              <p class="panel-label">Toolbox</p>
+              <ul class="chips" aria-label="Tools I use">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>CSS</li>
+                <li>Vite</li>
+                <li>Figma</li>
+                <li>Framer Motion</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section wrap" id="work" aria-labelledby="work-title">
+        <header class="section-head work-head" data-reveal>
+          <p class="kicker"><span>02</span> Selected work</p>
+          <h2 id="work-title">Things I've shipped.</h2>
+        </header>
+
+        <div class="work-grid">
+          <article class="project" data-reveal>
+            <div class="project-media">
+              <img
+                src="assets/focus-timer.jpg"
+                width="785"
+                height="574"
+                alt="Focus Timer interface with focus, short break and long break modes"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span>01</span><span>2026 · Solo build</span></p>
+              <h3>
+                <a
+                  class="project-title-link"
+                  href="https://time-rho-five.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="Focus Timer — opens in a new tab"
+                >Focus Timer</a>
+              </h3>
+              <p class="project-desc">
+                A pomodoro-style focus timer with focus, short-break, and long-break modes,
+                configurable durations, and keyboard controls.
+              </p>
+              <ul class="tags" aria-label="Focus Timer tags">
+                <li>Timer</li>
+                <li>UI</li>
+                <li>Productivity</li>
+              </ul>
+              <p class="project-cta">
+                Visit live site
+                <svg aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </p>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <div class="project-media">
+              <img
+                src="assets/iphone.jpg"
+                width="800"
+                height="574"
+                alt="iPhone 13 Pro Max product landing page hero"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span>02</span><span>2026 · Solo build</span></p>
+              <h3>
+                <a
+                  class="project-title-link"
+                  href="https://iphone-ivory-three.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="iPhone 13 Pro Max — opens in a new tab"
+                >iPhone 13 Pro Max</a>
+              </h3>
+              <p class="project-desc">
+                A responsive product landing page with a hero, product grid, news, and contact
+                sections.
+              </p>
+              <ul class="tags" aria-label="iPhone 13 Pro Max tags">
+                <li>Landing page</li>
+                <li>Responsive</li>
+                <li>Front-end</li>
+              </ul>
+              <p class="project-cta">
+                Visit live site
+                <svg aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <p class="work-note" data-reveal>
+          More case studies available on request —
+          <a href="#contact">tell me what you're building</a>.
+        </p>
+      </section>
+
+      <section class="section wrap" id="skills" aria-labelledby="skills-title">
+        <header class="section-head" data-reveal>
+          <p class="kicker"><span>03</span> Capabilities</p>
+          <h2 id="skills-title">What I bring to the table.</h2>
+        </header>
+
+        <ul class="skills" data-reveal aria-label="Skill levels">
+          <li class="skill" style="--level: 95%">
+            <div class="skill-top">
+              <span>React &amp; TypeScript</span>
+              <span class="skill-level">95%</span>
+            </div>
+            <div class="bar" role="img" aria-label="React and TypeScript: 95 percent">
+              <span></span>
+            </div>
+          </li>
+          <li class="skill" style="--level: 92%">
+            <div class="skill-top">
+              <span>Design systems</span>
+              <span class="skill-level">92%</span>
+            </div>
+            <div class="bar" role="img" aria-label="Design systems: 92 percent">
+              <span></span>
+            </div>
+          </li>
+          <li class="skill" style="--level: 88%">
+            <div class="skill-top">
+              <span>Motion &amp; interaction</span>
+              <span class="skill-level">88%</span>
+            </div>
+            <div class="bar" role="img" aria-label="Motion and interaction: 88 percent">
+              <span></span>
+            </div>
+          </li>
+          <li class="skill" style="--level: 90%">
+            <div class="skill-top">
+              <span>Accessibility</span>
+              <span class="skill-level">90%</span>
+            </div>
+            <div class="bar" role="img" aria-label="Accessibility: 90 percent">
+              <span></span>
+            </div>
+          </li>
+          <li class="skill" style="--level: 84%">
+            <div class="skill-top">
+              <span>Product strategy</span>
+              <span class="skill-level">84%</span>
+            </div>
+            <div class="bar" role="img" aria-label="Product strategy: 84 percent">
+              <span></span>
+            </div>
+          </li>
+          <li class="skill" style="--level: 86%">
+            <div class="skill-top">
+              <span>Prototyping</span>
+              <span class="skill-level">86%</span>
+            </div>
+            <div class="bar" role="img" aria-label="Prototyping: 86 percent">
+              <span></span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+        <header class="section-head" data-reveal>
+          <p class="kicker"><span>04</span> Contact</p>
+          <h2 id="contact-title">Let's make something<br />worth touching.</h2>
+          <p class="contact-lede">
+            Have a product, a wild idea, or just want to compare notes on interfaces? I'm one
+            message away.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="phone-panel" data-reveal>
+            <p class="panel-label">Call or WhatsApp</p>
+            <a class="phone-number" href="tel:+201140083401">+20 11 4008 3401</a>
+            <div class="phone-actions">
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/201140083401"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg aria-hidden="true"><use href="#i-whatsapp" /></svg>
+                WhatsApp
+              </a>
+              <a class="btn btn-ghost" href="tel:+201140083401">
+                <svg aria-hidden="true"><use href="#i-phone" /></svg>
+                Call
+              </a>
+            </div>
+            <p class="phone-note">Cairo, Egypt · GMT+2 · Usually replies within a day.</p>
+          </div>
+
+          <ul class="socials" data-reveal aria-label="Social profiles">
+            <li>
+              <a class="social" href="https://github.com/mohamedosama209750" target="_blank" rel="noreferrer noopener">
+                <svg aria-hidden="true"><use href="#i-github" /></svg>
+                <span class="social-text">
+                  <span class="social-label">GitHub</span>
+                  <span class="social-handle">@mohamedosama209750</span>
+                </span>
+                <svg class="social-arrow" aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social"
+                href="https://www.linkedin.com/in/mohamed-osama-936244333/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg aria-hidden="true"><use href="#i-linkedin" /></svg>
+                <span class="social-text">
+                  <span class="social-label">LinkedIn</span>
+                  <span class="social-handle">in/mohamed-osama-936244333</span>
+                </span>
+                <svg class="social-arrow" aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </a>
+            </li>
+            <li>
+              <a class="social" href="https://www.tiktok.com/@engmohamed.osama" target="_blank" rel="noreferrer noopener">
+                <svg aria-hidden="true"><use href="#i-tiktok" /></svg>
+                <span class="social-text">
+                  <span class="social-label">TikTok</span>
+                  <span class="social-handle">@engmohamed.osama</span>
+                </span>
+                <svg class="social-arrow" aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social"
+                href="https://www.facebook.com/share/1Dg8hiMPRt/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg aria-hidden="true"><use href="#i-facebook" /></svg>
+                <span class="social-text">
+                  <span class="social-label">Facebook</span>
+                  <span class="social-handle">facebook.com/share/1Dg8hiMPRt</span>
+                </span>
+                <svg class="social-arrow" aria-hidden="true"><use href="#i-arrow-up-right" /></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <p>© <span id="year">2026</span> Mohamed Osama</p>
+        <p class="footer-mid">Cairo, EG · Built by hand with HTML, CSS &amp; JS</p>
+        <a class="back-top" href="#top">
+          Back to top
+          <svg aria-hidden="true"><use href="#i-arrow-up" /></svg>
+        </a>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohamed Osama",
+        "jobTitle": "Product Designer & Front-End Engineer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Cairo", "addressCountry": "EG" },
+        "sameAs": [
+          "https://github.com/mohamedosama209750",
+          "https://www.linkedin.com/in/mohamed-osama-936244333/",
+          "https://www.tiktok.com/@engmohamed.osama",
+          "https://www.facebook.com/share/1Dg8hiMPRt/"
+        ]
+      }
+    </script>
+  </body>
+</html>
